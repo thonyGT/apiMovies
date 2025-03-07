@@ -3,7 +3,6 @@ import axios from 'axios'
 import './App.css'
 
 function App() {
-
   const TOKEN_API = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyYmFkNjdjZmZkMzI3ZjQ2YTEwMDZjMzhmMWQ4YTdiMCIsIm5iZiI6MTc0MTI5NjI2Ny4wNDYwMDAyLCJzdWIiOiI2N2NhMTI4YjM2NTk4MjI2YTFhZmJjYzYiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.jdrCzFZN3mFirAZJ7yDEmEic0-0_vamnHndEkMEGuNs';
   const API_KEY = '2bad67cffd327f46a1006c38f1d8a7b0';
   const API_ESTRENOS = 'https://api.themoviedb.org/3/movie/upcoming'
